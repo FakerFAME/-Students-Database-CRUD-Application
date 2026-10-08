@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3
+students.db
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Reports
+.pytest_cache/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
